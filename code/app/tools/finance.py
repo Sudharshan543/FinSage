@@ -94,11 +94,11 @@ def get_invoice_details(invoice_id):
             TRIAGE_STATUS,
             FLAG_REASON
         FROM DBADMIN.FINSAGE_INVOICES
-        WHERE INVOICE_ID = ?
+        WHERE INVOICE_ID = ? OR INVOICE_NUMBER = ?
     """
 
     try:
-        cursor.execute(sql, (invoice_id,))
+        cursor.execute(sql, (invoice_id, invoice_id))
         row = cursor.fetchone()
 
         if not row:

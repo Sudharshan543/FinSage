@@ -171,7 +171,7 @@ def classify_intent(question):
         return "EXPENSE_EXCEPTIONS"
 
     invoice_id = re.search(
-        r"\bINV[0-9]+\b",
+        r"\bINV-\d{4}-\d+\b",
         question,
         re.IGNORECASE
     )
@@ -825,7 +825,7 @@ def route_finance_request(
     elif intent == "INVOICE_DETAILS":
 
         match = re.search(
-            r"\bINV[0-9]+\b",
+            r"\bINV-\d{4}-\d+\b",
             question,
             re.IGNORECASE
         )
