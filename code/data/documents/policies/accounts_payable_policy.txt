@@ -1,0 +1,88 @@
+FINANCE POLICY: ACCOUNTS PAYABLE AND INVOICE PROCESSING
+
+Document ID: FIN-AP-001
+Document Type: Accounts Payable Policy
+Region: India
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE
+
+This policy defines the requirements for receiving, validating, approving, and processing supplier invoices. It aims to improve payment accuracy, prevent duplicate payments, and maintain appropriate financial controls.
+
+2. INVOICE SUBMISSION REQUIREMENTS
+
+All supplier invoices must contain:
+- Supplier legal name and supplier identification number.
+- Unique invoice number.
+- Invoice date.
+- Description of goods or services supplied.
+- Invoice amount and applicable tax details.
+- Payment terms.
+- Purchase order number, where applicable.
+- Supplier bank details registered with the organization.
+
+Invoices with missing mandatory information must be returned to the supplier or placed on hold until the missing information is received.
+
+3. PURCHASE ORDER MATCHING
+
+Invoices associated with purchase orders must be matched against the corresponding purchase order and goods receipt or service confirmation.
+
+The accounts payable team must verify:
+- Supplier name matches the purchase order.
+- Purchase order number is valid.
+- Invoice quantity and description are consistent with the order.
+- Invoice amount does not exceed the approved purchase order amount.
+- Goods or services have been received or confirmed.
+
+Unexplained differences must be referred to the procurement team for investigation.
+
+4. DUPLICATE INVOICE PREVENTION
+
+Before processing payment, the accounts payable team must check whether the same supplier has previously submitted an invoice with the same invoice number.
+
+A suspected duplicate must be placed on hold until investigated. Payment must not be processed merely because the invoice was resubmitted.
+
+5. PAYMENT APPROVAL
+
+Invoices must be reviewed and approved according to the organization's delegated approval authority.
+
+An invoice must not be approved by the same individual who created or submitted the payment request when segregation of duties is required.
+
+Any invoice exceeding the applicable approval authority must be escalated to the appropriate finance manager.
+
+6. PAYMENT TERMS
+
+Payment due dates must be calculated using the contractual payment terms recorded in the approved supplier agreement or purchase order.
+
+The accounts payable team must not assume standard payment terms when the agreement is unavailable.
+
+Any disagreement concerning payment terms must be referred to procurement or the vendor management team.
+
+7. TAX VALIDATION
+
+Applicable tax registration details and tax amounts must be checked against the supplier invoice and relevant supporting documentation.
+
+Unexplained tax differences must be referred to the tax or finance compliance team before payment approval.
+
+8. EXCEPTIONS AND ESCALATION
+
+The following situations require additional review:
+- Missing purchase order information.
+- Duplicate invoice numbers.
+- Incorrect supplier information.
+- Amount differences between invoice and purchase order.
+- Missing goods receipt or service confirmation.
+- Unverified bank account changes.
+- Unclear tax calculations.
+- Missing supporting documents.
+
+The reviewer must record the issue, supporting evidence, and resolution status.
+
+9. RECORD RETENTION
+
+Invoice records, purchase orders, approval records, supporting documents, and payment confirmations must be retained according to the organization's applicable records-retention requirements.
+
+10. POLICY INTERPRETATION
+
+If the available invoice evidence is incomplete or contradictory, the accounts payable team must request clarification rather than assume that the invoice is valid.

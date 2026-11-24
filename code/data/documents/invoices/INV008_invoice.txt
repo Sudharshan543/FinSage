@@ -1,0 +1,28 @@
+INVOICE DOCUMENT
+
+Invoice ID: INV008
+Invoice Number: INV-2026-006
+Vendor Name: Zenith Office Supplies
+Vendor ID: VEN006
+GSTIN: 29ZENIT1234F1Z8
+
+Invoice Date: 2026-11-19
+Due Date: 2026-12-19
+
+Purchase Order Number: PO-2026-106
+Approved Purchase Order Amount: INR 75,000.00
+
+Currency: INR
+Subtotal: INR 60,000.00
+CGST: INR 5,400.00
+SGST: INR 5,400.00
+Total Invoice Amount: INR 70,800.00
+
+Payment Status: PENDING
+
+Description:
+Office stationery and printing supplies delivered as per the approved purchase order.
+
+Compliance Notes:
+This invoice shares the same vendor and invoice number as INV006.
+It is included as synthetic test data to demonstrate potential duplicate invoice detection.

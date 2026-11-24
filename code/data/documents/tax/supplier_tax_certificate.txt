@@ -1,0 +1,39 @@
+# SUPPLIER GST REGISTRATION CERTIFICATE
+
+**Document Reference:** TAX-CERT-2026-001  
+**Supplier Name:** Apex Office Solutions Pvt. Ltd.  
+**Supplier ID:** VEN004  
+**GSTIN:** 29ABCDE1234F1Z5  
+**PAN:** ABCDE1234F  
+**Business Address:** Bengaluru, Karnataka, India  
+**Registration Type:** Regular  
+**Registration Status:** Active (illustrative)  
+**Registration Date:** 01 April 2024  
+**State:** Karnataka  
+**State Code:** 29
+
+## 1. REGISTRATION DETAILS
+
+This illustrative certificate records the supplier's GST registration information for vendor verification and accounts payable demonstration purposes.
+
+## 2. VERIFICATION REQUIREMENTS
+
+The accounts payable team should:
+
+- Compare the GSTIN on the supplier invoice with the GSTIN recorded in the approved vendor master.
+- Verify the supplier's legal business name and registered address.
+- Check that the registration status is valid using appropriate supporting evidence.
+- Record any differences between invoice details and vendor registration records.
+- Request clarification when registration evidence is incomplete or inconsistent.
+
+## 3. DOCUMENT CONTROL
+
+**Issued for:** FinSage demonstration dataset  
+**Document Date:** 20 November 2026  
+**Access Level:** INTERNAL
+
+---
+
+**End of Certificate**
+
+*This is a fictional, illustrative document. It is not an official GST registration certificate and must not be used as proof of actual GST registration.*

@@ -1,0 +1,19 @@
+---
+applications:
+  - name: finsage-frontend
+    path: code
+    memory: 512M
+    disk_quota: 1G
+    instances: 1
+    routes:
+      - route: finsage-frontend.cfapps.ap21.hana.ondemand.com
+    buildpacks:
+      - python_buildpack
+    command: python -m streamlit run frontend/streamlit_app.py --server.address 0.0.0.0 --server.port ${PORT} --server.headless true
+    services:
+      - finsage-xsuaa
+    env:
+      PYTHONUNBUFFERED: "true"
+      STREAMLIT_BROWSER_GATHER_USAGE_STATS: "false"
+      FINSAGE_API_URL: "https://finsage-finance-copilot.cfapps.ap21.hana.ondemand.com"
+      FINSAGE_ROUTER_URL: "https://finsage.cfapps.ap21.hana.ondemand.com"

@@ -1,0 +1,80 @@
+DEMO ONLY - FICTIONAL USA BUSINESS TRAVEL POLICY
+
+This document contains invented sample rules for software testing only.
+It is not an approved company policy and must not be used to approve,
+deny, or reimburse real expenses. All currency limits below are fictional.
+
+Policy ID: DEMO-USA-TRAVEL-001
+Document Type: Travel Expense Policy
+Region: USA
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE AND SCOPE
+
+This test policy demonstrates retrieval of travel, hotel, meal, approval,
+receipt, and exception requirements for the USA region. It is not authoritative.
+
+2. TRAVEL APPROVAL AND BOOKING
+
+Business travel must be approved by the employee's reporting manager before
+booking. Claims must include the business purpose, destination, travel dates,
+and employee details.
+
+Air travel should use economy class and rail travel should use standard coach.
+Any exception requires manager approval before booking and a written business
+justification.
+
+3. HOTEL ACCOMMODATION
+
+For this demo only, eligible hotel accommodation is reimbursable up to
+USD 250 per room per night, before applicable taxes.
+
+Any nightly room rate above USD 250 requires manager approval before booking
+and a written business justification.
+
+The hotel invoice must show the hotel name, accommodation dates, number of
+nights, nightly room charges, applicable taxes, and proof of payment. A total
+hotel amount without the number of nights is insufficient to evaluate the
+per-night test limit.
+
+4. MEALS
+
+For this demo only, eligible meals during approved business travel are
+reimbursable up to USD 75 per traveler per day.
+
+Meal costs above USD 75 per traveler per day require manager approval and a
+written business justification. Meal claims must include an itemized receipt,
+expense date, business purpose, and attendee details when applicable.
+
+5. LOCAL TRANSPORTATION
+
+Reasonable local transportation for authorized business activities may be
+claimed. Claims must include the expense date, business purpose, route or
+service description, amount, and supporting receipt. Personal transportation
+and unrelated travel are not reimbursable under this demo policy.
+
+6. RECEIPTS AND CLAIM SUBMISSION
+
+Hotel, meal, air, rail, and local transportation claims must include receipts
+or equivalent supporting documentation. Electronic receipts are acceptable
+for this test policy. Missing or unreadable documentation must be recorded as
+an exception and reviewed before reimbursement.
+
+Expense claims must identify the employee, expense category, date, amount and
+currency, business purpose, travel dates, and applicable approval. Hotel claims
+must state the number of nights; meal claims must state the number of days and
+travelers so per-unit limits can be evaluated.
+
+7. EXCEPTIONS AND APPROVAL
+
+Expenses above the demo limits, missing receipts, or travel booked without
+required approval must be referred to an authorized manager for review.
+The employee requesting reimbursement must not approve their own claim.
+
+8. POLICY STATUS
+
+The USD 250 hotel limit, USD 75 meal limit, and all other requirements in this
+file are fictional test values created for the FinSage academic demonstration.
+They are not approved company rules. Replace this file with an approved USA
+policy before using FinSage for any real finance or reimbursement decision.

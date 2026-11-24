@@ -1,0 +1,57 @@
+FINANCE POLICY: TAX COMPLIANCE AND INVOICE TAX VALIDATION
+
+Document ID: FIN-TAX-001
+Document Type: Tax Compliance Policy
+Region: India
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE
+
+This policy establishes procedures for reviewing tax information on supplier invoices and maintaining appropriate tax compliance records.
+
+2. TAX IDENTIFICATION
+
+Supplier tax registration details must be verified against approved vendor records and supporting documentation.
+
+3. INVOICE TAX VALIDATION
+
+The accounts payable team must review:
+- Supplier tax registration details.
+- Taxable invoice value.
+- Applicable tax rates.
+- Tax amounts.
+- Total invoice value.
+- Supporting tax documentation.
+
+4. TAX CALCULATION
+
+Tax amounts must be checked for mathematical accuracy.
+
+Differences between the invoice tax calculation and supporting documentation must be investigated.
+
+5. TAX DOCUMENTATION
+
+Supplier invoices must contain the applicable tax details and required supporting information.
+
+Invoices with missing or inconsistent tax information must be placed on hold until clarification is received.
+
+6. TAX REGISTRATION CHANGES
+
+Changes to supplier tax registration information must be documented and independently verified.
+
+7. TAX EXCEPTIONS
+
+Incorrect tax calculations, missing tax details, invalid registration information, and unexplained tax differences must be recorded as compliance exceptions.
+
+8. REVIEW AND ESCALATION
+
+Unresolved tax discrepancies must be referred to the finance or tax compliance team.
+
+9. RECORD RETENTION
+
+Tax invoices, supporting documents, validation records, and exception approvals must be retained according to applicable organizational requirements.
+
+10. POLICY INTERPRETATION
+
+When tax evidence is incomplete or contradictory, the reviewer must request clarification rather than assume compliance.

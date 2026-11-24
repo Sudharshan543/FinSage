@@ -1,0 +1,59 @@
+# TAX INVOICE
+
+**Invoice Number:** INV-2026-005  
+**Invoice Date:** 18 November 2026  
+**Due Date:** 18 December 2026  
+**Currency:** INR
+
+## 1. SUPPLIER DETAILS
+
+**Supplier Name:** Brightstar Technologies Pvt. Ltd.  
+**Supplier ID:** VEN005  
+**GSTIN:** 29PQRSX1234L1Z6  
+**PAN:** PQRSX1234L  
+**Address:** Bengaluru, Karnataka, India
+
+## 2. CUSTOMER DETAILS
+
+**Customer Name:** FinSage Technologies Pvt. Ltd.  
+**Purchase Order Number:** PO-2026-105
+
+## 3. PURCHASE DETAILS
+
+| Description | Quantity | Unit Price | Total |
+|---|---:|---:|---:|
+| Computer monitors | 5 | 12,000.00 | 60,000.00 |
+| Docking stations | 5 | 5,000.00 | 25,000.00 |
+
+**Invoice Subtotal:** INR 85,000.00
+
+## 4. TAX DETAILS
+
+**CGST (9%):** INR 7,650.00  
+**SGST (9%):** INR 7,650.00  
+**Total Tax:** INR 15,300.00
+
+## 5. INVOICE TOTAL
+
+**Grand Total:** INR 100,300.00
+
+## 6. PURCHASE ORDER VERIFICATION
+
+**Purchase Order:** PO-2026-105  
+**Purchase Order Approved Amount:** INR 90,000.00  
+**Invoice Grand Total:** INR 100,300.00  
+**Difference:** INR 10,300.00
+
+**Compliance Observation:** The invoice total exceeds the approved purchase order amount by INR 10,300.00. Additional verification and approval are required before payment processing.
+
+## 7. PAYMENT DETAILS
+
+**Payment Terms:** Net 30 days  
+**Payment Method:** Bank Transfer  
+**Payment Status:** PENDING
+
+---
+
+**End of Invoice**
+
+*Illustrative synthetic invoice created for the FinSage academic capstone demonstration. All entities and transaction details are fictional.*

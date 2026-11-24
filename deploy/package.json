@@ -1,0 +1,14 @@
+{
+  "name": "finsage-approuter",
+  "private": true,
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  },
+  "dependencies": {
+    "@sap/approuter": "^23.5.0"
+  }
+}

@@ -1,0 +1,61 @@
+FINANCE POLICY: INVOICE VERIFICATION AND APPROVAL
+
+Document ID: FIN-AP-003
+Document Type: Invoice Verification Policy
+Region: India
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE
+
+This policy establishes the verification procedures required before supplier invoices can be approved for payment.
+
+2. SUPPLIER VERIFICATION
+
+The accounts payable team must verify the supplier's identity against approved supplier records.
+
+Supplier identification details must be consistent with the purchase order and supplier master data.
+
+3. INVOICE NUMBER VALIDATION
+
+Each invoice must contain a unique invoice number.
+
+Invoices must be checked against previously processed invoices to identify potential duplicates.
+
+4. AMOUNT VALIDATION
+
+The invoice subtotal, applicable taxes, and total amount must be checked for mathematical accuracy.
+
+The invoice amount must be compared with the approved purchase order where applicable.
+
+5. GOODS AND SERVICES CONFIRMATION
+
+The accounts payable team must verify that goods have been received or services have been confirmed.
+
+Invoices without the required confirmation must be held for investigation.
+
+6. TAX DOCUMENTATION
+
+Tax amounts and supplier tax registration information must be reviewed against the supporting invoice documentation.
+
+Unexplained differences must be escalated to the tax team.
+
+7. APPROVAL CONTROLS
+
+Invoices must be approved by authorized personnel before payment processing.
+
+Approval evidence must be recorded and retained.
+
+8. FRAUD PREVENTION
+
+Unusual invoice amounts, unexpected bank account changes, repeated invoice submissions, and inconsistent supplier information must be treated as potential risk indicators.
+
+Such cases must be escalated for additional verification.
+
+9. DISPUTED INVOICES
+
+Disputed invoices must remain on hold until the relevant issue is investigated and resolved.
+
+10. AUDIT EVIDENCE
+
+The organization must retain invoice copies, purchase orders, goods receipt confirmations, approval records, and payment evidence to support financial audits.

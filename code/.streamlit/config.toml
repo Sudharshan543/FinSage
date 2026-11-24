@@ -1,0 +1,5 @@
+[server]
+corsAllowedOrigins = [
+  "https://finsage.cfapps.ap21.hana.ondemand.com",
+  "https://finsage-frontend.cfapps.ap21.hana.ondemand.com",
+]

@@ -1,0 +1,81 @@
+FINANCE POLICY: EMPLOYEE EXPENSE REIMBURSEMENT
+
+Document ID: FIN-EXP-001
+Document Type: Expense Reimbursement Policy
+Region: India
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE
+
+This policy defines the requirements for submitting, reviewing, approving, and reimbursing employee business expenses.
+
+2. ELIGIBLE EXPENSES
+
+Employees may claim reasonable business expenses incurred while performing authorized work-related activities.
+
+Eligible categories may include:
+- Business travel.
+- Hotel accommodation.
+- Meals during approved business travel.
+- Local transportation.
+- Approved business-related purchases.
+
+3. EXPENSE SUBMISSION
+
+Employees must submit expense claims with:
+- Employee identification.
+- Expense category.
+- Expense date.
+- Amount and currency.
+- Business purpose.
+- Supporting receipts or invoices.
+- Required approval details.
+
+4. RECEIPT REQUIREMENTS
+
+Original receipts or acceptable supporting documentation must be provided for expense claims.
+
+Claims without supporting documentation must be reviewed and may require additional clarification.
+
+5. HOTEL EXPENSES
+
+Hotel expenses must comply with the applicable accommodation limits established by the organization.
+
+The reviewer must consider the number of nights, room rate per night, location, and supporting hotel invoice.
+
+A total hotel amount alone is insufficient to establish whether the nightly limit was exceeded.
+
+6. MEAL EXPENSES
+
+Meal expenses must comply with the applicable daily limits.
+
+The reviewer must consider the expense date, number of days, meal category, and supporting receipts.
+
+A combined meal amount without a corresponding duration cannot independently establish daily compliance.
+
+7. BUSINESS TRAVEL APPROVAL
+
+Business travel must receive the required authorization before expenses are incurred.
+
+Employees must follow the organization's approved travel arrangements and applicable spending limits.
+
+8. PROHIBITED EXPENSES
+
+Personal purchases and expenses unrelated to authorized business activities are not eligible for reimbursement.
+
+9. EXCEPTION HANDLING
+
+Expenses exceeding applicable limits or missing required supporting documents must be recorded as exceptions.
+
+Exceptions must include a reason, supporting evidence, and appropriate approval status.
+
+10. REIMBURSEMENT APPROVAL
+
+Expense claims must be reviewed by authorized personnel before reimbursement.
+
+Employees must not approve their own expense claims where segregation of duties is required.
+
+11. RECORD RETENTION
+
+Expense claims, receipts, approvals, and reimbursement records must be retained according to applicable organizational requirements.

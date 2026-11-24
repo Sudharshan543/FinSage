@@ -1,0 +1,26 @@
+{
+  "authenticationMethod": "route",
+  "sessionTimeout": 30,
+  "websockets": {
+    "enabled": true
+  },
+  "logout": {
+    "logoutEndpoint": "/logout",
+    "logoutPage": "/",
+    "logoutMethod": "GET"
+  },
+  "routes": [
+    {
+      "source": "^/api/(.*)$",
+      "target": "/$1",
+      "destination": "finsage-api",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/(.*)$",
+      "target": "/$1",
+      "destination": "finsage-ui",
+      "authenticationType": "xsuaa"
+    }
+  ]
+}

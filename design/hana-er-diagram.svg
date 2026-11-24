@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1220" viewBox="0 0 1700 1220" role="img" aria-labelledby="title description">
+  <title id="title">FinSage HANA ER diagram</title>
+  <desc id="description">Five SAP HANA tables, their primary keys and columns. Invoice flags contain a logical invoice ID reference without an enforced foreign key.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#64748b"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #172b4d; }
+      .title { font-size: 30px; font-weight: 700; }
+      .subtitle { font-size: 15px; fill: #52627a; }
+      .card { fill: #ffffff; stroke: #8297b0; stroke-width: 2; }
+      .head { fill: #e8f1ff; }
+      .head-alt { fill: #e8f7f1; }
+      .entity { font-size: 17px; font-weight: 700; }
+      .field { font-size: 14px; }
+      .key { font-size: 12px; font-weight: 700; fill: #325b85; }
+      .type { font-size: 12px; fill: #52627a; }
+      .edge { fill: none; stroke: #64748b; stroke-width: 2; stroke-dasharray: 7 6; marker-end: url(#arrow); }
+      .note { font-size: 13px; fill: #52627a; }
+    </style>
+  </defs>
+  <rect width="1700" height="1220" fill="#ffffff"/>
+  <text x="40" y="48" class="title">FinSage HANA Entities</text>
+  <text x="40" y="74" class="subtitle">Primary keys are marked PK. Only the dashed invoice-to-flag link is a logical application reference; no FK is declared in the schema.</text>
+
+  <!-- Document chunks -->
+  <rect x="40" y="100" width="500" height="344" rx="12" class="card"/>
+  <path d="M52 100 H528 Q540 100 540 112 V151 H40 V112 Q40 100 52 100" class="head"/>
+  <text x="58" y="133" class="entity">FINSAGE_DOCUMENT_CHUNKS</text>
+  <text x="58" y="178" class="field">CHUNK_ID</text><text x="250" y="178" class="type">NVARCHAR(100)</text><text x="455" y="178" class="key">PK</text>
+  <text x="58" y="207" class="field">DOC_TYPE</text><text x="250" y="207" class="type">NVARCHAR(50)</text>
+  <text x="58" y="236" class="field">CATEGORY</text><text x="250" y="236" class="type">NVARCHAR(100)</text>
+  <text x="58" y="265" class="field">REGION</text><text x="250" y="265" class="type">NVARCHAR(50)</text>
+  <text x="58" y="294" class="field">SOURCE_NAME</text><text x="250" y="294" class="type">NVARCHAR(255)</text>
+  <text x="58" y="323" class="field">EFFECTIVE_DATE</text><text x="250" y="323" class="type">DATE</text>
+  <text x="58" y="352" class="field">ACCESS_LEVEL</text><text x="250" y="352" class="type">NVARCHAR(50)</text>
+  <text x="58" y="381" class="field">CHUNK_TEXT</text><text x="250" y="381" class="type">NCLOB</text>
+  <text x="58" y="410" class="field">EMBEDDING</text><text x="250" y="410" class="type">REAL_VECTOR(1536)</text>
+
+  <!-- Invoices -->
+  <rect x="600" y="100" width="500" height="516" rx="12" class="card"/>
+  <path d="M612 100 H1088 Q1100 100 1100 112 V151 H600 V112 Q600 100 612 100" class="head"/>
+  <text x="618" y="133" class="entity">FINSAGE_INVOICES</text>
+  <text x="618" y="178" class="field">INVOICE_ID</text><text x="820" y="178" class="type">NVARCHAR(100)</text><text x="1015" y="178" class="key">PK</text>
+  <text x="618" y="205" class="field">VENDOR_NAME</text><text x="820" y="205" class="type">NVARCHAR(255)</text>
+  <text x="618" y="232" class="field">VENDOR_ID</text><text x="820" y="232" class="type">NVARCHAR(100)</text>
+  <text x="618" y="259" class="field">INVOICE_NUMBER</text><text x="820" y="259" class="type">NVARCHAR(100)</text>
+  <text x="618" y="286" class="field">PO_NUMBER</text><text x="820" y="286" class="type">NVARCHAR(100)</text>
+  <text x="618" y="313" class="field">PO_APPROVED_AMOUNT</text><text x="820" y="313" class="type">DECIMAL(15,2)</text>
+  <text x="618" y="340" class="field">INVOICE_DATE</text><text x="820" y="340" class="type">DATE</text>
+  <text x="618" y="367" class="field">DUE_DATE</text><text x="820" y="367" class="type">DATE</text>
+  <text x="618" y="394" class="field">CURRENCY</text><text x="820" y="394" class="type">NVARCHAR(10)</text>
+  <text x="618" y="421" class="field">INVOICE_AMOUNT</text><text x="820" y="421" class="type">DECIMAL(15,2)</text>
+  <text x="618" y="448" class="field">TAX_AMOUNT</text><text x="820" y="448" class="type">DECIMAL(15,2)</text>
+  <text x="618" y="475" class="field">PAYMENT_STATUS</text><text x="820" y="475" class="type">NVARCHAR(50)</text>
+  <text x="618" y="502" class="field">REGION</text><text x="820" y="502" class="type">NVARCHAR(50)</text>
+  <text x="618" y="529" class="field">TRIAGE_STATUS</text><text x="820" y="529" class="type">NVARCHAR(50)</text>
+  <text x="618" y="556" class="field">FLAG_REASON</text><text x="820" y="556" class="type">NCLOB</text>
+  <text x="618" y="583" class="field">CREATED_AT</text><text x="820" y="583" class="type">TIMESTAMP</text>
+
+  <!-- Invoice flags -->
+  <rect x="1170" y="120" width="480" height="236" rx="12" class="card"/>
+  <path d="M1182 120 H1638 Q1650 120 1650 132 V171 H1170 V132 Q1170 120 1182 120" class="head-alt"/>
+  <text x="1188" y="153" class="entity">FINSAGE_INVOICE_FLAGS</text>
+  <text x="1188" y="198" class="field">CASE_REF</text><text x="1380" y="198" class="type">NVARCHAR(36)</text><text x="1570" y="198" class="key">PK</text>
+  <text x="1188" y="230" class="field">INVOICE_ID</text><text x="1380" y="230" class="type">NVARCHAR(100)</text><text x="1570" y="230" class="key">logical ref</text>
+  <text x="1188" y="262" class="field">REASON</text><text x="1380" y="262" class="type">NCLOB</text>
+  <text x="1188" y="294" class="field">STATUS</text><text x="1380" y="294" class="type">NVARCHAR(30)</text>
+  <text x="1188" y="326" class="field">FLAGGED_AT</text><text x="1380" y="326" class="type">TIMESTAMP</text>
+
+  <!-- Expense exceptions -->
+  <rect x="40" y="650" width="650" height="508" rx="12" class="card"/>
+  <path d="M52 650 H678 Q690 650 690 662 V701 H40 V662 Q40 650 52 650" class="head-alt"/>
+  <text x="58" y="683" class="entity">FINSAGE_EXPENSE_EXCEPTIONS</text>
+  <text x="58" y="728" class="field">EXCEPTION_ID</text><text x="305" y="728" class="type">NVARCHAR(100)</text><text x="590" y="728" class="key">PK</text>
+  <text x="58" y="754" class="field">EMPLOYEE_ID</text><text x="305" y="754" class="type">NVARCHAR(100)</text>
+  <text x="58" y="780" class="field">EMPLOYEE_NAME</text><text x="305" y="780" class="type">NVARCHAR(255)</text>
+  <text x="58" y="806" class="field">EXPENSE_CATEGORY</text><text x="305" y="806" class="type">NVARCHAR(100)</text>
+  <text x="58" y="832" class="field">EXPENSE_AMOUNT</text><text x="305" y="832" class="type">DECIMAL(15,2)</text>
+  <text x="58" y="858" class="field">CURRENCY</text><text x="305" y="858" class="type">NVARCHAR(10)</text>
+  <text x="58" y="884" class="field">EXPENSE_DATE</text><text x="305" y="884" class="type">DATE</text>
+  <text x="58" y="910" class="field">REGION</text><text x="305" y="910" class="type">NVARCHAR(50)</text>
+  <text x="58" y="936" class="field">POLICY_REFERENCE</text><text x="305" y="936" class="type">NVARCHAR(255)</text>
+  <text x="58" y="962" class="field">EXCEPTION_REASON</text><text x="305" y="962" class="type">NCLOB</text>
+  <text x="58" y="988" class="field">SEVERITY</text><text x="305" y="988" class="type">NVARCHAR(30)</text>
+  <text x="58" y="1014" class="field">APPROVAL_STATUS</text><text x="305" y="1014" class="type">NVARCHAR(50)</text>
+  <text x="58" y="1040" class="field">NIGHTS</text><text x="305" y="1040" class="type">INTEGER</text>
+  <text x="58" y="1066" class="field">DAYS</text><text x="305" y="1066" class="type">INTEGER</text>
+  <text x="58" y="1092" class="field">RECEIPT_STATUS</text><text x="305" y="1092" class="type">NVARCHAR(20)</text>
+  <text x="58" y="1118" class="field">CREATED_AT</text><text x="305" y="1118" class="type">TIMESTAMP</text>
+  <text x="58" y="1144" class="field">UPDATED_AT</text><text x="305" y="1144" class="type">TIMESTAMP</text>
+
+  <!-- Agent traces -->
+  <rect x="940" y="710" width="650" height="300" rx="12" class="card"/>
+  <path d="M952 710 H1578 Q1590 710 1590 722 V761 H940 V722 Q940 710 952 710" class="head"/>
+  <text x="958" y="743" class="entity">FINSAGE_AGENT_TRACES</text>
+  <text x="958" y="788" class="field">TRACE_ID</text><text x="1205" y="788" class="type">NVARCHAR(36)</text><text x="1490" y="788" class="key">PK</text>
+  <text x="958" y="818" class="field">REQUEST_TYPE</text><text x="1205" y="818" class="type">NVARCHAR(100)</text>
+  <text x="958" y="848" class="field">REQUEST_SUMMARY</text><text x="1205" y="848" class="type">NCLOB</text>
+  <text x="958" y="878" class="field">STARTED_AT</text><text x="1205" y="878" class="type">TIMESTAMP</text>
+  <text x="958" y="908" class="field">FINISHED_AT</text><text x="1205" y="908" class="type">TIMESTAMP</text>
+  <text x="958" y="938" class="field">STATUS</text><text x="1205" y="938" class="type">NVARCHAR(30)</text>
+  <text x="958" y="968" class="field">DECISION</text><text x="1205" y="968" class="type">NVARCHAR(100)</text>
+  <text x="958" y="998" class="field">STAGES_JSON</text><text x="1205" y="998" class="type">NCLOB</text>
+
+  <path d="M1100 300 C1130 300 1135 250 1170 250" class="edge"/>
+  <rect x="1105" y="315" width="55" height="28" rx="6" fill="#ffffff"/>
+  <text x="1132" y="334" text-anchor="middle" class="key">1 : 0..*</text>
+  <text x="940" y="1055" class="note">STAGES_JSON stores trace stages; they are not a separate relational table.</text>
+  <text x="40" y="1190" class="note">Schema reference: db/schema.sql · Field data types are shown as declared in the repository DDL.</text>
+</svg>

@@ -1,0 +1,42 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+data/oauth_token.txt
+code/data/oauth_token.txt
+db-credentials.json
+# Local credentials and test artifacts
+*.pem
+*.key
+*.token
+# Node.js dependencies
+node_modules/
+# Temporary development backups
+*.bak
+*.final
+
+# Pytest cache
+.pytest_cache/
+
+# Node dependencies
+node_modules/

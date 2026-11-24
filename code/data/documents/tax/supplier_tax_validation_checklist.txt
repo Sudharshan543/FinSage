@@ -1,0 +1,75 @@
+# SUPPLIER TAX VALIDATION CHECKLIST
+
+**Document ID:** TAX-CHK-2026-002  
+**Document Type:** Supplier Tax Validation Checklist  
+**Region:** India  
+**Effective Date:** 01 November 2026  
+**Access Level:** INTERNAL
+
+## 1. PURPOSE
+
+This checklist supports the review of supplier tax information during invoice verification and accounts payable processing.
+
+## 2. SUPPLIER IDENTIFICATION
+
+Verify the following details:
+
+- Supplier legal name matches the approved vendor master.
+- Supplier identification number is recorded.
+- GSTIN is available on the invoice.
+- Supplier business address is consistent with supporting records.
+- Tax registration evidence is available.
+
+## 3. INVOICE TAX VALIDATION
+
+Review the following invoice details:
+
+- Taxable invoice value.
+- Applicable CGST and SGST or IGST.
+- Tax rates applied.
+- Individual tax amounts.
+- Total invoice value.
+- Mathematical accuracy of tax calculations.
+
+## 4. TAX DOCUMENT VERIFICATION
+
+Check that:
+
+- Supporting tax documents are available.
+- GSTIN on the invoice matches the vendor master.
+- Tax registration information is supported by available evidence.
+- Missing or inconsistent tax details are recorded.
+- Unexplained tax differences are referred for further review.
+
+## 5. VALIDATION EXCEPTIONS
+
+The following situations require clarification or escalation:
+
+- Missing GSTIN.
+- Invalid or inconsistent supplier tax identification.
+- Incorrect tax calculations.
+- Missing supporting tax documentation.
+- Differences between invoice tax amounts and supporting records.
+- Unverified supplier registration changes.
+
+## 6. REVIEW OUTCOME
+
+The reviewer should record one of the following outcomes:
+
+- VERIFIED: Available evidence supports the supplier tax information.
+- REQUIRES_CLARIFICATION: Additional information is needed.
+- REQUIRES_REVIEW: A discrepancy requires finance or tax team investigation.
+
+## 7. EVIDENCE AND RECORD KEEPING
+
+The reviewer must retain the invoice, supporting tax documents, verification results, exception details, and approval records according to applicable organizational requirements.
+
+## 8. IMPORTANT CONTROL
+
+When evidence is incomplete or contradictory, the reviewer must request clarification rather than assume that the supplier tax information is valid.
+
+---
+
+**End of Checklist**
+
+*Illustrative synthetic checklist created for the FinSage academic capstone demonstration. It is not an official tax authority document or legal tax guidance.*

@@ -1,0 +1,19 @@
+
+---
+applications:
+  - name: finsage-finance-copilot
+    path: code
+    memory: 512M
+    disk_quota: 1G
+    instances: 1
+    routes:
+      - route: finsage-finance-copilot.cfapps.ap21.hana.ondemand.com
+    buildpacks:
+      - python_buildpack
+    command: uvicorn app.main:app --host 0.0.0.0 --port ${PORT}
+    services:
+      - finsage-hana
+      - finsage-xsuaa
+      - finsage-db-credentials
+    env:
+      PYTHONUNBUFFERED: "true"

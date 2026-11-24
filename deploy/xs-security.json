@@ -1,0 +1,56 @@
+{
+  "xsappname": "finsage-finance-copilot",
+  "tenant-mode": "dedicated",
+  "description": "FinSage Finance Copilot Security Configuration",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.FinanceViewer",
+      "description": "View finance policies, invoices and expense information"
+    },
+    {
+      "name": "$XSAPPNAME.FinanceApprover",
+      "description": "Review and approve finance compliance actions"
+    },
+    {
+      "name": "$XSAPPNAME.FinanceAdmin",
+      "description": "Manage finance compliance and administrative actions"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "FinanceViewer",
+      "description": "Finance read-only access",
+      "scope-references": [
+        "$XSAPPNAME.FinanceViewer"
+      ]
+    },
+    {
+      "name": "FinanceApprover",
+      "description": "Finance approval access",
+      "scope-references": [
+        "$XSAPPNAME.FinanceViewer",
+        "$XSAPPNAME.FinanceApprover"
+      ]
+    },
+    {
+      "name": "FinanceAdmin",
+      "description": "Full finance administration access",
+      "scope-references": [
+        "$XSAPPNAME.FinanceViewer",
+        "$XSAPPNAME.FinanceApprover",
+        "$XSAPPNAME.FinanceAdmin"
+      ]
+    }
+  ],
+  "oauth2-configuration": {
+    "redirect-uris": [
+      "http://localhost:8000/login/callback",
+      "https://finsage.cfapps.ap21.hana.ondemand.com/login/callback"
+    ]
+  },
+  "authorities": [
+    "$XSAPPNAME.FinanceViewer",
+    "$XSAPPNAME.FinanceApprover",
+    "$XSAPPNAME.FinanceAdmin"
+  ]
+}

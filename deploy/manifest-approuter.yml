@@ -1,0 +1,17 @@
+---
+applications:
+  - name: finsage
+    path: deploy
+    memory: 128M
+    disk_quota: 512M
+    instances: 1
+    buildpacks:
+      - nodejs_buildpack
+    command: npm start
+    routes:
+      - route: finsage.cfapps.ap21.hana.ondemand.com
+    services:
+      - finsage-xsuaa
+    env:
+      destinations: '[{"name":"finsage-ui","url":"https://finsage-frontend.cfapps.ap21.hana.ondemand.com","forwardAuthToken":true},{"name":"finsage-api","url":"https://finsage-finance-copilot.cfapps.ap21.hana.ondemand.com","forwardAuthToken":true}]'
+      COOKIES: '{"SameSite":"None"}'

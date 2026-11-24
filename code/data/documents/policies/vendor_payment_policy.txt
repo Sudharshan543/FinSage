@@ -1,0 +1,61 @@
+FINANCE POLICY: VENDOR PAYMENT AND PAYMENT TERMS
+
+Document ID: FIN-AP-002
+Document Type: Vendor Payment Policy
+Region: India
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE
+
+This policy establishes controls for vendor payment processing, payment scheduling, and supplier account verification.
+
+2. PAYMENT TERM VERIFICATION
+
+Payment terms must be verified using the approved supplier contract, purchase order, or documented agreement.
+
+The accounts payable team must not assume payment terms when supporting evidence is unavailable.
+
+3. INVOICE DUE DATE
+
+The invoice due date must be determined using the payment terms agreed with the supplier.
+
+The invoice date, receipt date, and contractual payment terms must be considered when determining the due date.
+
+4. EARLY PAYMENT DISCOUNTS
+
+Where a supplier offers an early payment discount, the finance team may evaluate whether early payment is beneficial.
+
+The discount must be supported by documented supplier terms.
+
+5. OVERDUE INVOICES
+
+Invoices approaching or exceeding their contractual due dates must be reviewed by the accounts payable team.
+
+Disputed invoices must be clearly identified and escalated for resolution.
+
+6. SUPPLIER BANK ACCOUNT CHANGES
+
+Changes to supplier bank account information must be independently verified using an authorized supplier contact.
+
+Payment must be placed on hold until the change has been verified.
+
+7. PAYMENT APPROVAL
+
+Payments must receive approval according to the applicable delegated authority.
+
+Payment approval must be supported by invoice validation and required purchase order documentation.
+
+8. PAYMENT RECONCILIATION
+
+Completed payments must be reconciled against the corresponding invoice and supplier account.
+
+Differences between payment records and invoice balances must be investigated.
+
+9. EXCEPTION MANAGEMENT
+
+Unverified payment terms, incorrect bank details, duplicate payments, and disputed invoices must be recorded and escalated.
+
+10. RECORD RETENTION
+
+Supplier agreements, payment approvals, payment confirmations, and reconciliation records must be retained according to applicable organizational requirements.

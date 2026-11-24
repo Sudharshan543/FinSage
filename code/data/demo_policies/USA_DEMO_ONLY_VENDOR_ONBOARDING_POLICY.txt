@@ -1,0 +1,78 @@
+DEMO ONLY - FICTIONAL USA VENDOR ONBOARDING POLICY
+
+This document contains invented sample requirements for software testing only.
+It is not an approved company policy and must not be used to approve or reject
+real suppliers, activate payment details, or make tax or legal decisions.
+
+Policy ID: DEMO-USA-VENDOR-001
+Document Type: Vendor Onboarding Policy
+Region: USA
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE AND SCOPE
+
+This test policy demonstrates retrieval of vendor registration, document
+verification, bank verification, duplicate prevention, approval, and record
+maintenance requirements for the USA region. It is not authoritative.
+
+2. VENDOR REGISTRATION
+
+For this demo only, a new supplier must complete the sample vendor registration
+before receiving a purchase order. The sample registration records:
+
+- Legal business name and registered business address.
+- Supplier identification and applicable tax identification details.
+- Applicable tax forms or supporting tax documents, when required by the
+  organization's approved process.
+- Authorized business contact information.
+- Payment and bank account details supported by documentation.
+
+These are illustrative test fields, not a statement of USA legal requirements.
+
+3. DOCUMENT AND IDENTITY VERIFICATION
+
+Registration documents must be checked for completeness and consistency with
+the submitted supplier identity and tax information. Incomplete, inconsistent,
+or unsupported information must be returned for clarification and must not be
+treated as verified.
+
+4. BANK ACCOUNT VERIFICATION
+
+Bank account information must be independently verified before payment details
+are activated. Changes to bank details require additional verification through
+an established supplier contact channel. Unverified changes must not be used
+for payment processing.
+
+5. DUPLICATE VENDOR PREVENTION
+
+Before creating a supplier record, the vendor management team must check
+available identifiers, including legal name, tax identifier, and bank account
+details, against existing records. Potential duplicates must be investigated
+before a new record is activated.
+
+6. REVIEW AND APPROVAL
+
+Supplier records must be reviewed and approved by authorized procurement or
+vendor management personnel before activation. Employees must not approve
+their own vendor requests where segregation of duties is required.
+
+7. MASTER DATA CHANGES
+
+Changes to supplier name, address, tax details, contacts, or bank information
+must be supported by documentation and record the requester, reviewer, and
+approval status. Sensitive bank changes require independent verification.
+
+8. EXCEPTIONS AND RECORDS
+
+Missing documents, inconsistent supplier information, unverified bank details,
+and potential duplicates must be referred for review. Registration documents,
+verification evidence, approvals, and change history must be retained according
+to the organization's approved record-retention requirements.
+
+9. POLICY STATUS
+
+Every requirement in this file is fictional test content created for the
+FinSage academic demonstration. It is not approved corporate policy or legal,
+tax, or compliance guidance. Replace it with an approved USA vendor onboarding
+policy before using FinSage for real supplier decisions.

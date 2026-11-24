@@ -1,0 +1,28 @@
+INVOICE DOCUMENT
+
+Invoice ID: INV007
+Invoice Number: INV-2026-007
+Vendor Name: Metro Business Services
+Vendor ID: VEN007
+GSTIN: 29METRO1234F1Z2
+
+Invoice Date: 2026-11-19
+Due Date: 2026-12-19
+
+Purchase Order Number: NOT PROVIDED
+Approved Purchase Order Amount: NOT AVAILABLE
+
+Currency: INR
+Subtotal: INR 40,000.00
+CGST: INR 3,600.00
+SGST: INR 3,600.00
+Total Invoice Amount: INR 47,200.00
+
+Payment Status: PENDING
+
+Description:
+Business support and office maintenance services provided during November 2026.
+
+Compliance Notes:
+The invoice does not contain a purchase order number.
+The invoice requires manual accounts payable verification before payment.

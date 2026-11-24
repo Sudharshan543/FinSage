@@ -1,0 +1,9 @@
+hdbcli==2.30.32
+python-dotenv==1.2.4
+fastapi==0.165.0
+uvicorn==0.54.0
+google-genai==3.6.1
+sap-xssec==4.5.0
+streamlit==1.67.0
+requests==2.34.2
+pandas==3.1.1

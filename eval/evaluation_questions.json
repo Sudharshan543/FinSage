@@ -1,0 +1,221 @@
+
+[
+  {
+    "id": "Q001",
+    "question": "What is the hotel expense limit in India?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "5000"
+  },
+  {
+    "id": "Q002",
+    "question": "What happens when hotel expenses exceed the permitted limit?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "approval"
+  },
+  {
+    "id": "Q003",
+    "question": "What is the meal expense limit?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "1200"
+  },
+  {
+    "id": "Q004",
+    "question": "Does business travel require manager approval?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "manager"
+  },
+  {
+    "id": "Q005",
+    "question": "What documents are required for travel expense claims?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "receipt"
+  },
+  {
+    "id": "Q006",
+    "question": "Show me the invoice payment summary.",
+    "expected_intent": "INVOICE_SUMMARY",
+    "expected_evidence": true,
+    "expected_keyword": "invoice"
+  },
+  {
+    "id": "Q007",
+    "question": "Find duplicate invoices.",
+    "expected_intent": "DUPLICATE_CHECK",
+    "expected_evidence": true,
+    "expected_keyword": "duplicate"
+  },
+  {
+    "id": "Q008",
+    "question": "Which invoices require compliance review?",
+    "expected_intent": "INVOICE_REVIEW",
+    "expected_evidence": true,
+    "expected_keyword": "review"
+  },
+  {
+    "id": "Q009",
+    "question": "Show expense exceptions for employees.",
+    "expected_intent": "EXPENSE_EXCEPTIONS",
+    "expected_evidence": true,
+    "expected_keyword": "exception"
+  },
+  {
+    "id": "Q010",
+    "question": "What are the payment terms for ABC Technologies?",
+    "expected_intent": "VENDOR_TERMS",
+    "expected_evidence": true,
+    "expected_keyword": "ABC Technologies"
+  },
+  {
+    "id": "Q011",
+    "question": "What is the company's international hotel limit in Japan?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": false,
+    "expected_keyword": ""
+  },
+  {
+    "id": "Q012",
+    "question": "What is the employee's mobile phone reimbursement limit?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": false,
+    "expected_keyword": ""
+  },
+  {
+    "id": "Q013",
+    "question": "What is the company's entertainment allowance?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": false,
+    "expected_keyword": ""
+  },
+  {
+    "id": "Q014",
+    "question": "Can an employee claim an expense without a receipt?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "receipt"
+  },
+  {
+    "id": "Q015",
+    "question": "What is the travel approval process?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "approval"
+  },
+  {
+    "id": "Q016",
+    "question": "Show details for INV001.",
+    "expected_intent": "INVOICE_DETAILS",
+    "expected_evidence": true,
+    "expected_keyword": "INV001"
+  },
+  {
+    "id": "Q017",
+    "question": "Find the invoice details for INV003.",
+    "expected_intent": "INVOICE_DETAILS",
+    "expected_evidence": true,
+    "expected_keyword": "INV003"
+  },
+  {
+    "id": "Q018",
+    "question": "Give me the payment status of INV001.",
+    "expected_intent": "INVOICE_DETAILS",
+    "expected_evidence": true,
+    "expected_keyword": "INV001"
+  },
+  {
+    "id": "Q019",
+    "question": "Are there any invoices with missing purchase order numbers?",
+    "expected_intent": "INVOICE_REVIEW",
+    "expected_evidence": true,
+    "expected_keyword": "purchase order"
+  },
+  {
+    "id": "Q020",
+    "question": "Show all recorded employee expense exceptions.",
+    "expected_intent": "EXPENSE_EXCEPTIONS",
+    "expected_evidence": true,
+    "expected_keyword": "exception"
+  },
+  {
+    "id": "Q021",
+    "question": "What is the hotel accommodation policy?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "5000"
+  },
+  {
+    "id": "Q022",
+    "question": "Are original meal receipts mandatory?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "receipts"
+  },
+  {
+    "id": "Q023",
+    "question": "What are the local transportation reimbursement rules?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "transportation"
+  },
+  {
+    "id": "Q024",
+    "question": "What is the approved travel booking process?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "approved"
+  },
+  {
+    "id": "Q025",
+    "question": "What is the office equipment reimbursement limit?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": false,
+    "expected_keyword": ""
+  },
+  {
+    "id": "Q026",
+    "question": "Tell me about something unrelated.",
+    "expected_intent": "UNKNOWN",
+    "expected_evidence": false,
+    "expected_keyword": ""
+  },
+  {
+    "id": "Q027",
+    "question": "What is the weather forecast for tomorrow?",
+    "expected_intent": "UNKNOWN",
+    "expected_evidence": false,
+    "expected_keyword": ""
+  },
+  {
+    "id": "Q028",
+    "question": "Explain how to write a Python program.",
+    "expected_intent": "UNKNOWN",
+    "expected_evidence": false,
+    "expected_keyword": ""
+  },
+  {
+    "id": "Q029",
+    "question": "Show the invoice payment summary for all vendors.",
+    "expected_intent": "INVOICE_SUMMARY",
+    "expected_evidence": true,
+    "expected_keyword": "invoice"
+  },
+  {
+    "id": "Q030",
+    "question": "Find payment terms for Global Office Supplies.",
+    "expected_intent": "VENDOR_TERMS",
+    "expected_evidence": true,
+    "expected_keyword": "Global Office Supplies"
+  },
+  {
+    "id": "Q031",
+    "question": "What is the fictional USA demo hotel reimbursement limit?",
+    "expected_intent": "POLICY_QUERY",
+    "expected_evidence": true,
+    "expected_keyword": "250",
+    "expected_citations": true
+  }
+]

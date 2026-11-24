@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="700" viewBox="0 0 1280 700" role="img" aria-labelledby="title description">
+  <title id="title">FinSage solution architecture</title>
+  <desc id="description">SAP BTP Cloud Foundry architecture showing the user, application router, Streamlit frontend, FastAPI service, XSUAA, HANA Cloud, Gemini API, and document ingestion.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#52627a"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #172b4d; }
+      .title { font-size: 28px; font-weight: 700; }
+      .subtitle { font-size: 15px; fill: #52627a; }
+      .group { fill: #f5f8fc; stroke: #9fb3ca; stroke-width: 2; }
+      .group-title { font-size: 18px; font-weight: 700; fill: #325b85; }
+      .node { stroke-width: 2; rx: 12; }
+      .label { font-size: 17px; font-weight: 700; }
+      .small { font-size: 13px; fill: #40536b; }
+      .edge { fill: none; stroke: #52627a; stroke-width: 2.2; marker-end: url(#arrow); }
+      .dashed { stroke-dasharray: 7 6; }
+      .edge-label { font-size: 12px; fill: #40536b; }
+    </style>
+  </defs>
+  <rect width="1280" height="700" fill="#ffffff"/>
+  <text x="40" y="46" class="title">FinSage Solution Architecture</text>
+  <text x="40" y="72" class="subtitle">SAP BTP Cloud Foundry deployment and finance-document retrieval pipeline</text>
+
+  <rect x="190" y="105" width="755" height="535" rx="18" class="group"/>
+  <text x="215" y="136" class="group-title">SAP BTP Cloud Foundry</text>
+
+  <rect x="35" y="280" width="125" height="82" class="node" fill="#fff4df" stroke="#d99a2b"/>
+  <text x="97" y="314" text-anchor="middle" class="label">Finance user</text>
+  <text x="97" y="338" text-anchor="middle" class="small">Browser</text>
+
+  <rect x="230" y="165" width="205" height="88" class="node" fill="#e8f1ff" stroke="#5682bd"/>
+  <text x="332" y="199" text-anchor="middle" class="label">Application Router</text>
+  <text x="332" y="224" text-anchor="middle" class="small">finsage · protected entry</text>
+
+  <rect x="665" y="165" width="230" height="88" class="node" fill="#f1eaff" stroke="#8d69b3"/>
+  <text x="780" y="199" text-anchor="middle" class="label">SAP XSUAA</text>
+  <text x="780" y="224" text-anchor="middle" class="small">User authentication and scopes</text>
+
+  <rect x="230" y="340" width="205" height="100" class="node" fill="#e8f7f1" stroke="#4c9a7b"/>
+  <text x="332" y="379" text-anchor="middle" class="label">Streamlit frontend</text>
+  <text x="332" y="405" text-anchor="middle" class="small">finsage-frontend</text>
+
+  <rect x="535" y="340" width="310" height="110" class="node" fill="#e8f7f1" stroke="#4c9a7b"/>
+  <text x="690" y="379" text-anchor="middle" class="label">FastAPI service</text>
+  <text x="690" y="405" text-anchor="middle" class="small">finsage-finance-copilot</text>
+  <text x="690" y="426" text-anchor="middle" class="small">Agent routing · finance tools · evidence checks</text>
+
+  <rect x="535" y="510" width="310" height="88" class="node" fill="#e8f1ff" stroke="#5682bd"/>
+  <text x="690" y="545" text-anchor="middle" class="label">SAP HANA Cloud</text>
+  <text x="690" y="571" text-anchor="middle" class="small">Finance records · vector chunks · agent traces</text>
+
+  <rect x="35" y="510" width="150" height="88" class="node" fill="#fff4df" stroke="#d99a2b"/>
+  <text x="110" y="545" text-anchor="middle" class="label">Source files</text>
+  <text x="110" y="570" text-anchor="middle" class="small">Policies · invoices · tax</text>
+
+  <rect x="230" y="510" width="205" height="88" class="node" fill="#fff4df" stroke="#d99a2b"/>
+  <text x="332" y="545" text-anchor="middle" class="label">Ingestion command</text>
+  <text x="332" y="570" text-anchor="middle" class="small">Read · chunk · embed · UPSERT</text>
+
+  <rect x="990" y="330" width="250" height="105" class="node" fill="#f1eaff" stroke="#8d69b3"/>
+  <text x="1115" y="370" text-anchor="middle" class="label">Google Gemini API</text>
+  <text x="1115" y="396" text-anchor="middle" class="small">Embedding generation</text>
+  <text x="1115" y="417" text-anchor="middle" class="small">Grounded policy answer generation</text>
+
+  <path d="M160 300 L230 220" class="edge"/>
+  <text x="174" y="250" class="edge-label">Sign in</text>
+  <path d="M332 253 L332 340" class="edge"/>
+  <text x="344" y="302" class="edge-label">Protected UI</text>
+  <path d="M435 205 L665 205" class="edge"/>
+  <text x="492" y="193" class="edge-label">OAuth / user identity</text>
+  <path d="M435 235 L480 235 L480 315 L815 315 L815 340" class="edge dashed"/>
+  <text x="548" y="305" class="edge-label">Optional protected /api/* route</text>
+  <path d="M435 390 L535 390" class="edge"/>
+  <text x="442" y="378" class="edge-label">HTTPS + user token</text>
+  <path d="M690 340 L690 253" class="edge"/>
+  <text x="701" y="301" class="edge-label">Validate token / scopes</text>
+  <path d="M690 450 L690 510" class="edge"/>
+  <text x="701" y="486" class="edge-label">SQL · vector search · writes</text>
+  <path d="M845 365 C900 335 930 335 990 365" class="edge"/>
+  <text x="872" y="326" class="edge-label">Query embeddings / answers</text>
+  <path d="M185 554 L230 554" class="edge"/>
+  <path d="M435 554 L535 554" class="edge"/>
+  <path d="M435 520 C625 465 825 445 990 420" class="edge dashed"/>
+  <text x="702" y="466" class="edge-label">Generate document embeddings</text>
+
+  <text x="40" y="660" class="small">The UI normally calls FastAPI directly. The App Router also configures a protected /api/* route to the API destination.</text>
+</svg>

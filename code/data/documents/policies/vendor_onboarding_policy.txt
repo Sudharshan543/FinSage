@@ -1,0 +1,65 @@
+FINANCE POLICY: VENDOR ONBOARDING AND MASTER DATA
+
+Document ID: FIN-VEN-001
+Document Type: Vendor Management Policy
+Region: India
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE
+
+This policy defines the controls for registering, validating, and maintaining supplier information.
+
+2. VENDOR REGISTRATION
+
+New suppliers must complete the organization's vendor registration process before receiving purchase orders.
+
+Required information includes:
+- Legal business name.
+- Registered business address.
+- Supplier identification number.
+- Applicable tax registration details.
+- Authorized contact information.
+- Bank account details.
+
+3. DOCUMENT VERIFICATION
+
+Supplier registration documents must be checked for completeness and consistency.
+
+Incomplete or inconsistent information must be returned for clarification.
+
+4. BANK ACCOUNT VERIFICATION
+
+Supplier bank account information must be independently verified before payment details are activated.
+
+Changes to bank details must undergo additional verification using an authorized supplier contact.
+
+5. DUPLICATE VENDOR PREVENTION
+
+The vendor management team must check existing supplier records before creating a new vendor account.
+
+Duplicate supplier registrations must be investigated and resolved.
+
+6. VENDOR APPROVAL
+
+Supplier records must be approved by authorized procurement or vendor management personnel.
+
+Employees must not approve their own vendor registration requests where segregation of duties is required.
+
+7. MASTER DATA MAINTENANCE
+
+Changes to supplier names, addresses, tax details, contacts, and bank information must be documented.
+
+The change history must identify the requester, reviewer, and approval status.
+
+8. VENDOR RISK REVIEW
+
+Unusual supplier requests, inconsistent documentation, and unverified bank account changes must be escalated for additional review.
+
+9. INACTIVE VENDORS
+
+Supplier accounts that are no longer used may be marked inactive according to the organization's vendor management procedures.
+
+10. RECORD RETENTION
+
+Vendor registration documents, verification evidence, approval records, and master data change history must be retained according to applicable organizational requirements.

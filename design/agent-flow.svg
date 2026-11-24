@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="1740" viewBox="0 0 1480 1740" role="img" aria-labelledby="title description">
+  <title id="title">FinSage agent flow</title>
+  <desc id="description">Question processing flow through XSUAA authentication, HANA trace creation, intent classification, policy retrieval and verification, structured finance tools, and response tracing.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#52627a"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #172b4d; }
+      .title { font-size: 30px; font-weight: 700; }
+      .subtitle { font-size: 15px; fill: #52627a; }
+      .node { stroke-width: 2; rx: 12; }
+      .label { font-size: 17px; font-weight: 700; }
+      .small { font-size: 13px; fill: #40536b; }
+      .lane { fill: #f8fafc; stroke: #b8c5d3; stroke-width: 2; rx: 16; }
+      .lane-policy { fill: #f7f3ff; stroke: #a38ac1; }
+      .lane-data { fill: #f0f8ff; stroke: #83a8ca; }
+      .lane-other { fill: #fff8eb; stroke: #d3ac69; }
+      .lane-title { font-size: 18px; font-weight: 700; }
+      .edge { fill: none; stroke: #52627a; stroke-width: 2.2; marker-end: url(#arrow); }
+      .dashed { stroke-dasharray: 7 6; }
+      .edge-label { font-size: 12px; fill: #40536b; }
+    </style>
+  </defs>
+  <rect width="1480" height="1740" fill="#ffffff"/>
+  <text x="40" y="48" class="title">FinSage Agent Flow</text>
+  <text x="40" y="75" class="subtitle">POST /agent/ask · intent routing, evidence handling, finance tools, and durable HANA trace</text>
+
+  <rect x="600" y="105" width="280" height="58" class="node" fill="#fff4df" stroke="#d99a2b"/>
+  <text x="740" y="141" text-anchor="middle" class="label">User question</text>
+
+  <rect x="530" y="195" width="420" height="70" class="node" fill="#e8f1ff" stroke="#5682bd"/>
+  <text x="740" y="225" text-anchor="middle" class="label">POST /agent/ask</text>
+  <text x="740" y="247" text-anchor="middle" class="small">FastAPI endpoint</text>
+
+  <rect x="530" y="300" width="420" height="82" class="node" fill="#f1eaff" stroke="#8d69b3"/>
+  <text x="740" y="333" text-anchor="middle" class="label">Authentication and authorization</text>
+  <text x="740" y="358" text-anchor="middle" class="small">Cloud Foundry: validate user token and read scope</text>
+  <text x="740" y="376" text-anchor="middle" class="small">Local development: auth middleware may be disabled</text>
+
+  <rect x="55" y="303" width="340" height="76" class="node" fill="#fff0f0" stroke="#cf7474"/>
+  <text x="225" y="336" text-anchor="middle" class="label">Reject request</text>
+  <text x="225" y="360" text-anchor="middle" class="small">Invalid token / missing scope / auth unavailable</text>
+
+  <rect x="530" y="420" width="420" height="70" class="node" fill="#e8f7f1" stroke="#4c9a7b"/>
+  <text x="740" y="450" text-anchor="middle" class="label">Start RUNNING trace in HANA</text>
+  <text x="740" y="474" text-anchor="middle" class="small">If the trace cannot be started, the request is not processed</text>
+
+  <rect x="530" y="525" width="420" height="70" class="node" fill="#e8f1ff" stroke="#5682bd"/>
+  <text x="740" y="555" text-anchor="middle" class="label">Classify intent</text>
+  <text x="740" y="579" text-anchor="middle" class="small">Rule-based routing to policy, finance tools, or unknown</text>
+
+  <path d="M740 163 L740 195" class="edge"/>
+  <path d="M740 265 L740 300" class="edge"/>
+  <path d="M530 340 L395 340" class="edge"/>
+  <text x="424" y="329" class="edge-label">Not authorized</text>
+  <path d="M740 382 L740 420" class="edge"/>
+  <path d="M740 490 L740 525" class="edge"/>
+
+  <rect x="30" y="640" width="450" height="770" class="lane lane-policy"/>
+  <text x="55" y="675" class="lane-title" fill="#624783">POLICY QUESTION</text>
+
+  <rect x="60" y="700" width="390" height="66" class="node" fill="#ffffff" stroke="#a38ac1"/>
+  <text x="255" y="728" text-anchor="middle" class="label">Prepare search query</text>
+  <text x="255" y="750" text-anchor="middle" class="small">Adjust hotel-average questions to search policy limits</text>
+
+  <rect x="60" y="790" width="390" height="66" class="node" fill="#ffffff" stroke="#a38ac1"/>
+  <text x="255" y="818" text-anchor="middle" class="label">Generate query embedding</text>
+  <text x="255" y="840" text-anchor="middle" class="small">Gemini embedding API</text>
+
+  <rect x="50" y="882" width="190" height="100" class="node" fill="#ffffff" stroke="#5682bd"/>
+  <text x="145" y="915" text-anchor="middle" class="label">Semantic search</text>
+  <text x="145" y="940" text-anchor="middle" class="small">HANA vector similarity</text>
+  <text x="145" y="962" text-anchor="middle" class="small">region / date / access filters</text>
+
+  <rect x="270" y="882" width="190" height="100" class="node" fill="#ffffff" stroke="#d99a2b"/>
+  <text x="365" y="915" text-anchor="middle" class="label">Keyword fallback</text>
+  <text x="365" y="940" text-anchor="middle" class="small">HANA text retrieval if</text>
+  <text x="365" y="962" text-anchor="middle" class="small">embedding retrieval fails</text>
+
+  <rect x="60" y="1005" width="390" height="76" class="node" fill="#ffffff" stroke="#a38ac1"/>
+  <text x="255" y="1037" text-anchor="middle" class="label">Rerank and verify evidence</text>
+  <text x="255" y="1062" text-anchor="middle" class="small">Similarity + keyword relevance + topic relevance</text>
+
+  <path d="M255 1110 L350 1155 L255 1200 L160 1155 Z" fill="#ffffff" stroke="#8d69b3" stroke-width="2"/>
+  <text x="255" y="1152" text-anchor="middle" class="label">Evidence</text>
+  <text x="255" y="1173" text-anchor="middle" class="small">sufficient?</text>
+
+  <rect x="60" y="1230" width="390" height="112" class="node" fill="#ffffff" stroke="#4c9a7b"/>
+  <text x="255" y="1262" text-anchor="middle" class="label">Grounded policy response</text>
+  <text x="255" y="1287" text-anchor="middle" class="small">Enough evidence: answer from verified excerpts + citations</text>
+  <text x="255" y="1312" text-anchor="middle" class="small">Otherwise: cautious insufficient-evidence response</text>
+
+  <rect x="510" y="640" width="430" height="510" class="lane lane-data"/>
+  <text x="535" y="675" class="lane-title" fill="#315f86">STRUCTURED FINANCE QUESTION</text>
+
+  <rect x="540" y="710" width="370" height="78" class="node" fill="#ffffff" stroke="#83a8ca"/>
+  <text x="725" y="743" text-anchor="middle" class="label">Select finance tool</text>
+  <text x="725" y="768" text-anchor="middle" class="small">Invoice · vendor history · triage · expenses</text>
+
+  <rect x="540" y="830" width="370" height="78" class="node" fill="#ffffff" stroke="#5682bd"/>
+  <text x="725" y="863" text-anchor="middle" class="label">Read finance data from HANA</text>
+  <text x="725" y="888" text-anchor="middle" class="small">Invoices · flags · expense exceptions</text>
+
+  <rect x="540" y="950" width="370" height="78" class="node" fill="#ffffff" stroke="#4c9a7b"/>
+  <text x="725" y="983" text-anchor="middle" class="label">Build structured result</text>
+  <text x="725" y="1008" text-anchor="middle" class="small">FinSage logic formats answer and data</text>
+
+  <rect x="970" y="640" width="480" height="310" class="lane lane-other"/>
+  <text x="995" y="675" class="lane-title" fill="#80602c">UNKNOWN INTENT</text>
+  <rect x="1015" y="720" width="390" height="100" class="node" fill="#ffffff" stroke="#d3ac69"/>
+  <text x="1210" y="758" text-anchor="middle" class="label">Clarification response</text>
+  <text x="1210" y="785" text-anchor="middle" class="small">No unsupported answer is attempted</text>
+
+  <rect x="530" y="1460" width="420" height="68" class="node" fill="#e8f1ff" stroke="#5682bd"/>
+  <text x="740" y="1490" text-anchor="middle" class="label">Build API response</text>
+  <text x="740" y="1514" text-anchor="middle" class="small">Intent · answer · data · citations · evidence status</text>
+
+  <rect x="530" y="1550" width="420" height="72" class="node" fill="#e8f7f1" stroke="#4c9a7b"/>
+  <text x="740" y="1580" text-anchor="middle" class="label">Finish trace in HANA</text>
+  <text x="740" y="1605" text-anchor="middle" class="small">Persist decision, stages, status, and finish time</text>
+
+  <rect x="615" y="1650" width="250" height="60" class="node" fill="#fff4df" stroke="#d99a2b"/>
+  <text x="740" y="1687" text-anchor="middle" class="label">Return response + trace_id</text>
+
+  <rect x="1030" y="1550" width="380" height="72" class="node" fill="#fff0f0" stroke="#cf7474"/>
+  <text x="1220" y="1580" text-anchor="middle" class="label">Trace persistence failure</text>
+  <text x="1220" y="1605" text-anchor="middle" class="small">Do not return an untraced success response</text>
+
+  <path d="M740 595 L740 620 L255 620 L255 700" class="edge"/>
+  <text x="420" y="612" class="edge-label">POLICY_QUERY</text>
+  <path d="M740 595 L740 710" class="edge"/>
+  <text x="752" y="650" class="edge-label">Finance intent</text>
+  <path d="M740 595 L740 620 L1210 620 L1210 720" class="edge"/>
+  <text x="1015" y="612" class="edge-label">UNKNOWN</text>
+
+  <path d="M255 766 L255 790" class="edge"/>
+  <path d="M255 856 L255 870 L145 870 L145 882" class="edge"/>
+  <path d="M255 856 L255 870 L365 870 L365 882" class="edge dashed"/>
+  <text x="52" y="875" class="edge-label">Embedding available</text>
+  <text x="281" y="875" class="edge-label">Embedding unavailable</text>
+  <text x="280" y="1000" class="edge-label">Either retrieval path</text>
+  <path d="M145 982 L145 992 L255 992 L255 1005" class="edge"/>
+  <path d="M365 982 L365 992 L255 992 L255 1005" class="edge"/>
+  <path d="M255 1081 L255 1110" class="edge"/>
+  <path d="M255 1200 L255 1230" class="edge"/>
+
+  <path d="M725 788 L725 830" class="edge"/>
+  <path d="M725 908 L725 950" class="edge"/>
+  <path d="M1210 820 L1210 885 L950 885 L950 1494 L950 1494" class="edge"/>
+  <path d="M255 1342 L255 1425 L530 1425 L530 1494" class="edge"/>
+  <path d="M725 1028 L725 1405 L740 1405 L740 1460" class="edge"/>
+  <path d="M740 1528 L740 1550" class="edge"/>
+  <path d="M740 1622 L740 1650" class="edge"/>
+  <path d="M950 1586 L1030 1586" class="edge"/>
+
+  <text x="40" y="1724" class="small">Separate write endpoints (invoice flagging and expense exception logging) require confirmation and write authorization.</text>
+</svg>

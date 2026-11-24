@@ -1,0 +1,51 @@
+FINANCE POLICY: EXPENSE APPROVAL AND AUTHORIZATION
+
+Document ID: FIN-EXP-002
+Document Type: Expense Approval Policy
+Region: India
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE
+
+This policy defines the approval responsibilities and authorization controls for employee expense claims.
+
+2. APPROVAL AUTHORITY
+
+Expense claims must be reviewed and approved by employees with appropriate delegated authority.
+
+Approval limits must be followed according to the organization's financial authorization matrix.
+
+3. MANAGER REVIEW
+
+Managers must review the business purpose, expense category, amount, date, and supporting documentation before approving a claim.
+
+4. SEGREGATION OF DUTIES
+
+Employees must not approve their own expense claims.
+
+Where required, separate individuals must perform expense submission, review, and payment authorization.
+
+5. HIGH-VALUE EXPENSES
+
+Expenses exceeding the applicable approval threshold must be escalated to the appropriate finance manager.
+
+6. POLICY EXCEPTIONS
+
+Expenses exceeding policy limits must include a documented explanation and additional approval.
+
+7. MISSING DOCUMENTATION
+
+Claims without receipts or other required supporting documents must be returned for clarification or recorded as exceptions.
+
+8. APPROVAL RECORDS
+
+Approval records must include the reviewer identity, approval date, decision, and comments where applicable.
+
+9. REJECTED CLAIMS
+
+Rejected claims must include a reason so the employee can understand the required correction.
+
+10. AUDIT AND RETENTION
+
+Expense submissions, supporting evidence, approvals, rejections, and exception records must be retained according to applicable organizational requirements.

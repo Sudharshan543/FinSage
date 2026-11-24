@@ -1,0 +1,109 @@
+# FINSAGE – VENDOR MASTER DATA MANAGEMENT POLICY
+
+**Policy ID:** FIN-VMD-014  
+**Document Type:** Vendor Master Data Policy  
+**Region:** India  
+**Effective Date:** 01 November 2026  
+**Access Level:** INTERNAL
+
+## 1. PURPOSE
+
+This policy establishes procedures for creating, validating, maintaining, and updating vendor master records to support accurate accounts payable processing and prevent unauthorized vendor changes.
+
+## 2. VENDOR REGISTRATION
+
+Before creating a new vendor record, the procurement or vendor management team must obtain:
+
+- Legal business name.
+- Registered business address.
+- Vendor identification details.
+- Applicable GST registration details.
+- PAN or other applicable tax identification.
+- Authorized contact information.
+- Bank account details supported by documentation.
+
+Incomplete vendor applications must be returned for clarification.
+
+## 3. VENDOR IDENTITY VERIFICATION
+
+Vendor identity must be checked against the registration documents and supporting records provided by the vendor.
+
+The vendor's legal name, registration number, address, and tax identification details must be reviewed for consistency.
+
+Unverified or inconsistent information must be referred to the vendor management team before activation.
+
+## 4. BANK ACCOUNT VALIDATION
+
+Bank account details must be supported by appropriate bank documentation.
+
+Changes to existing vendor bank details must undergo independent verification using an established vendor contact channel.
+
+The employee requesting a bank account change must not be the sole person approving that change.
+
+Unverified bank account changes must not be used for payment processing.
+
+## 5. TAX INFORMATION VALIDATION
+
+Applicable supplier tax registration details must be checked against supporting documentation and approved vendor records.
+
+Tax identification mismatches, invalid registration information, and missing tax documents must be recorded for review.
+
+Supplier tax information must be updated when valid supporting evidence is received.
+
+## 6. VENDOR MASTER DATA CHANGES
+
+Changes to vendor names, addresses, tax details, banking information, or authorized contacts must be supported by documented evidence.
+
+All changes must record:
+
+- Previous information.
+- Updated information.
+- Change request date.
+- Requesting employee.
+- Verification evidence.
+- Approving employee.
+
+## 7. DUPLICATE VENDOR PREVENTION
+
+Before creating a vendor record, the vendor management team must check for existing records using available identifiers, including legal name, tax registration number, and bank account information.
+
+Potential duplicate records must be investigated before a new vendor is activated.
+
+## 8. VENDOR APPROVAL AND ACTIVATION
+
+New vendor records must be reviewed and approved by authorized personnel before activation.
+
+Vendor records with incomplete verification must remain inactive until the required evidence is obtained.
+
+## 9. PERIODIC REVIEW
+
+Vendor master records must be reviewed periodically to identify outdated information, duplicate records, inactive vendors, and incomplete verification records.
+
+Identified discrepancies must be documented and assigned for resolution.
+
+## 10. EXCEPTIONS AND ESCALATION
+
+The following situations require additional review:
+
+- Missing vendor registration documents.
+- Invalid or inconsistent tax identification.
+- Unverified bank account changes.
+- Duplicate vendor records.
+- Unauthorized master data changes.
+- Incomplete vendor approval records.
+
+Unresolved issues must be escalated to the procurement, finance, or compliance team.
+
+## 11. RECORD RETENTION
+
+Vendor registration documents, verification evidence, approval records, and change history must be retained according to applicable organizational record-retention requirements.
+
+## 12. POLICY INTERPRETATION
+
+When vendor information is incomplete, inconsistent, or unsupported by evidence, the reviewer must request clarification rather than assume that the vendor record is valid.
+
+---
+
+**End of Policy**
+
+*Illustrative synthetic policy created for the FinSage academic capstone demonstration. It is not an official corporate policy.*

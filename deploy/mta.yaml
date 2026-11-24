@@ -1,0 +1,44 @@
+_schema-version: "3.3"
+ID: finsage-finance-copilot
+version: 1.0.0
+description: FinSage FastAPI finance copilot
+modules:
+  - name: finsage-api
+    type: python
+    path: ../code
+    parameters:
+      buildpack: python_buildpack
+      memory: 512M
+      disk-quota: 1G
+      instances: 1
+      command: uvicorn app.main:app --host 0.0.0.0 --port ${PORT}
+      routes:
+        - route: finsage-finance-copilot.cfapps.ap21.hana.ondemand.com
+    build-parameters:
+      ignore:
+        - .env
+        - .env.*
+        - db-credentials.json
+        - venv/
+        - node_modules/
+        - tests/
+        - scripts/
+        - __pycache__/
+        - .pytest_cache/
+    requires:
+      - name: finsage-hana
+      - name: finsage-xsuaa
+      - name: finsage-db-credentials
+resources:
+  - name: finsage-hana
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: finsage-hana
+  - name: finsage-xsuaa
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: finsage-xsuaa
+  - name: finsage-db-credentials
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: finsage-db-credentials

@@ -1,0 +1,51 @@
+FINANCE POLICY: EMPLOYEE REIMBURSEMENT AUDIT AND MONITORING
+
+Document ID: FIN-AUD-001
+Document Type: Expense Audit Policy
+Region: India
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE
+
+This policy establishes procedures for monitoring and auditing employee reimbursement claims.
+
+2. AUDIT SELECTION
+
+Expense claims may be selected for review based on transaction value, expense category, unusual patterns, missing documentation, or policy exceptions.
+
+3. SUPPORTING DOCUMENTATION
+
+Expense claims must be supported by receipts, invoices, booking confirmations, and relevant business justification.
+
+4. DUPLICATE CLAIM DETECTION
+
+Expense reviewers must check for repeated submissions of the same receipt, transaction, date, or amount.
+
+Potential duplicate claims must be investigated before reimbursement.
+
+5. POLICY COMPLIANCE
+
+Reviewers must compare submitted expenses against applicable company policy limits and approval requirements.
+
+6. UNUSUAL EXPENSE PATTERNS
+
+Repeated high-value claims, unusual transaction frequency, inconsistent expense categories, and expenses outside approved travel dates may require additional investigation.
+
+7. AUDIT FINDINGS
+
+Audit findings must include the employee identifier, expense reference, issue description, supporting evidence, and recommended action.
+
+8. EXCEPTION RESOLUTION
+
+Employees may be asked to provide additional documentation or clarification.
+
+Unresolved exceptions must be escalated to the appropriate finance manager.
+
+9. RECORD RETENTION
+
+Audit reports, supporting evidence, investigation notes, and resolution records must be retained according to organizational requirements.
+
+10. CONTINUOUS MONITORING
+
+The finance team should periodically review expense patterns and control effectiveness to identify opportunities for improving reimbursement compliance.

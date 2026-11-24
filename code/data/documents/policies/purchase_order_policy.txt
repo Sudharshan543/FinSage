@@ -1,0 +1,69 @@
+FINANCE POLICY: PURCHASE ORDER MANAGEMENT
+
+Document ID: FIN-PROC-001
+Document Type: Procurement Policy
+Region: India
+Effective Date: 1 November 2026
+Access Level: INTERNAL
+
+1. PURPOSE
+
+This policy establishes controls for creating, approving, modifying, and managing purchase orders.
+
+2. PURCHASE REQUISITIONS
+
+Employees must submit a purchase requisition before committing organizational funds.
+
+The requisition must include the business justification, requested goods or services, estimated cost, department, and required delivery date.
+
+3. PURCHASE ORDER CREATION
+
+An approved purchase requisition must be converted into a purchase order by an authorized procurement employee.
+
+Each purchase order must contain a unique reference number, supplier information, item descriptions, quantities, agreed prices, applicable taxes, and delivery conditions.
+
+4. PURCHASE ORDER APPROVAL
+
+Purchase orders must be approved according to the organization's delegated financial authority.
+
+Employees must not approve purchase requests that exceed their approval limits.
+
+5. SUPPLIER VALIDATION
+
+Suppliers must be checked against approved vendor records before a purchase order is issued.
+
+Supplier identity, registration details, and approved payment information must be verified.
+
+6. PURCHASE ORDER CHANGES
+
+Changes to quantities, prices, delivery dates, or supplier information must be documented and approved.
+
+Significant changes may require a revised purchase order and additional authorization.
+
+7. GOODS RECEIPT
+
+Goods received must be checked against the purchase order.
+
+The receiving employee must record the actual quantity and condition of the goods.
+
+Shortages, damaged goods, and incorrect deliveries must be reported to procurement.
+
+8. SERVICE CONFIRMATION
+
+Services must be confirmed by the responsible department before the related supplier invoice is approved.
+
+The confirmation must identify the service delivered and the relevant purchase order.
+
+9. INVOICE MATCHING
+
+Supplier invoices must be matched against the purchase order and goods receipt or service confirmation.
+
+Differences in quantity, price, or total value must be investigated before payment.
+
+10. PURCHASE ORDER CLOSURE
+
+Purchase orders should be closed when all approved goods or services have been delivered and outstanding invoices have been processed.
+
+11. EXCEPTION MANAGEMENT
+
+Unauthorized purchases, missing purchase orders, unapproved changes, and unmatched invoices must be recorded and escalated to procurement management.
